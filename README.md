@@ -10,12 +10,14 @@ The basic idea is to be able to view and adjust graphics as you create them with
 
 ### Prerequisites
 * [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz)
+* [nextname](https://www.mathworks.com/matlabcentral/fileexchange/64108-next-available-filename) by Stephen Cobeldick
 * Working and up-to-date LaTeX environment with the following packages:
     * [TikZ/PGF](https://ctan.org/pkg/pgf) version 3.0 or higher
     * [pgfplots](https://ctan.org/pkg/pgfplots) version 1.13 or higher
     * [amsmath](https://www.ctan.org/pkg/amsmath) version 2.14 or higher
     * [standalone](https://www.ctan.org/pkg/standalone)
     * [hyperref](https://www.ctan.org/pkg/hyperref)
+
 
 ### Installation
 1. Extract ZIP file or clone repository to a convenient location
@@ -48,7 +50,5 @@ Please note how matlab2tikz handles the dimensions of the output PDF file &mdash
 
 
 ## License
-This project is licensed under the MIT License &mdash; see the LICENSE.md file for details.
+This project is licensed under the MIT License &mdash; see the LICENSE.md for details.
 
-## Acknowledgement
-`m2tp` uses Stephen Cobeldick's [nextname](https://www.mathworks.com/matlabcentral/fileexchange/64108-next-available-filename) from the MATLAB&reg; Central File Exchange for PDF filename handling.
