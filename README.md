@@ -1,6 +1,9 @@
 # m2tp
 matlab2tikz standalone PDF preview
 
+![m2tp icon](./m2tp.png)
+
+
 ## Purpose
 `m2tp` lets you generate a PDF preview of a TikZ image created by matlab2tikz directly from MATLAB&reg;.
 
@@ -50,5 +53,5 @@ Please note how matlab2tikz handles the dimensions of the output PDF file &mdash
 
 
 ## License
-This project is licensed under the MIT License &mdash; see the LICENSE.md for details.
+This project is licensed under the MIT License &mdash; see the [LICENSE](./LICENSE) for details.
 
