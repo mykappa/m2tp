@@ -74,8 +74,8 @@ job_name = nextname(p.Results.pdf_fn,sprintf('%s1',p.Results.pdf_fn_suff),'.pdf'
 [~, job_name] = fileparts(job_name);
 
 % Compile TikZ image with corresponding standalone LaTeX template
-comp_cmd_str = sprintf('pdflatex.exe -synctex=1 -interaction=nonstopmode -jobname=%s "%s %s %s \\input{%s}"',...
-    job_name,length_def,length_set,fn_set,p.Results.tex_wrapper_fn);
+comp_cmd_str = sprintf('pdflatex.exe -synctex=1 -interaction=nonstopmode -jobname=%s """%s %s %s \\input{%s} """',...
+    job_name,length_def,length_set,fn_set,strrep(fullfile(which(p.Results.tex_wrapper_fn)),'\','\\'));
 
 % cmd output handling
 if p.Results.cmd_out
