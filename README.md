@@ -37,7 +37,7 @@ The basic idea is to be able to view and adjust graphics as you create them with
 ### Example
 
 ```matlab
-% Plot data (simple sinus wave)
+% Plot data (simple sine wave)
 x = 0 : 0.01 : 2*pi;
 y = sin(x);
 figure
